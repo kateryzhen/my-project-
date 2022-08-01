@@ -20,7 +20,7 @@
                required>
         </label>
 
-        <label class="form-field">
+        <label class="form-field" tabindex="1">
             <h3>Password</h3>
                <input
                type="password" 
@@ -45,7 +45,8 @@
     <label class="form-field">
         Choose your Favorite Color
         <select 
-        name="color">
+        name="color" required>
+        <option value="" disabled>Choose a color</option>
         <option value="#f00">Red</option>
         <option value="#0f0">Green</option>
         <option value="#00f">Blue</option>
