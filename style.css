@@ -32,3 +32,6 @@ h1:hover{
     color: white;
     background-color: black;
 }
+.form-field{
+    font-family: 'Courier New', Courier, monospace;
+}
