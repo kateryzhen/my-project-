@@ -39,18 +39,24 @@
             I agree terms and conditions
         </label>
         </div>
-
         <button type="submit" class="form__button" disabled>Sign up</button>
+        <label class="form-field">
+            Choose your Favorite Color
+            <select 
+            name="color" required>
+            <option value="" disabled>Choose a color</option>
+            <option value="#f00">Red</option>
+            <option value="#0f0">Green</option>
+            <option value="#00f">Blue</option>
+            </select>
+        </label>
+        <label class="form-field">
+            Add your feedback:
+              <textarea name="feedback"></textarea>
+              </label>
+              <button type="submit">
+                send feedback
+              </button>
     </form>
-    <label class="form-field">
-        Choose your Favorite Color
-        <select 
-        name="color" required>
-        <option value="" disabled>Choose a color</option>
-        <option value="#f00">Red</option>
-        <option value="#0f0">Green</option>
-        <option value="#00f">Blue</option>
-        </select>
-    </label>
 </body>
 </html>
