@@ -9,30 +9,22 @@
 </head>
 <body>
     <h1>My project</h1>
-    <form action="http://localhost:300/api" method="get">
+    <form action="http://localhost:300/api" method="post">
         <div class="form-field">
-            x:
-            <input type="text" name="x" placeholder="x-value">
+         Username
+            <input type="text" name="username">
         </div>
+        <label class="form-field">
+            Password
+               <input type="password" name="password">
+        </label>
         <div class="form-field">
-            y:
-            <input 
-            type="text" 
-            name="y" 
-            value="123"
-            disabled>
-        </div>
-        <div class="form-field">
-            Password:
-        <input type="password" name="z">
-        </div>
-        <div class="form-field">
-        <input type="checkbox" name="Remember" checked id="password">
+        <input type="checkbox" name="terms">
         <label for="password">
-            I agree 
+            I agree terms and conditions
         </label>
         </div>
-        <button>Search</button>
+        <button>Sign up</button>
     </form>
 </body>
 </html>
