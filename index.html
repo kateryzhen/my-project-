@@ -10,32 +10,37 @@
 <body>
     <h1>My project</h1>
     <form action="http://localhost:300/api" method="post">
-        <label class="form-field">
+        <label>
             Email
-               <input type="email" name="email" required>
+               <input
+               type="email"
+               name="email"
+               required
+               placeholder="enter email"
+               class="field">
         </label>
-        <div class="form-field">
-         Username
-            <input type="text" name="username">
-        </div>
+
         <label class="form-field">
             Password
                <input
                type="password" 
                name="password" 
                required minlength="5" 
-               maxlength="32">
+               maxlength="32"
+               class="field">
         </label>
         <div class="form-field">
-        <input type="checkbox" name="terms" required>
-        <label for="password">
+        <input 
+        id=""
+        type="checkbox"
+        name="terms" 
+        required>
+        <label class="form__label" for="terms-and-conditions">
             I agree terms and conditions
         </label>
         </div>
 
-        <button>Sign up</button>
-        <button type="reset">Reset</button>
-        <button type="button">Button</button>
+        <button type="submit" class="form__button" disabled>Sign up</button>
     </form>
 </body>
 </html>
