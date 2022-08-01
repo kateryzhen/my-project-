@@ -40,6 +40,7 @@
         </label>
         </div>
         <button type="submit" class="form__button" disabled>Sign up</button>
+        <br>
         <label class="form-field">
             Choose your Favorite Color
             <select 
@@ -50,13 +51,15 @@
             <option value="#00f">Blue</option>
             </select>
         </label>
+        <br>
         <label class="form-field">
             Add your feedback:
-              <textarea name="feedback"></textarea>
+              <textarea name="feedback" class="textarea"></textarea>
               </label>
               <button type="submit">
                 send feedback
               </button>
+              <input type="hidden" name="role" value="admin">
     </form>
 </body>
 </html>
